@@ -1,0 +1,100 @@
+.fotter{
+    padding: 2em 1em;
+}
+
+.fotter__titulo{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: var(--fonte);
+
+}
+
+.fotter__texto{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: var(--fonte);
+    margin: 1em 0;
+    padding: 0 1.5em 0 0;
+
+}
+.fotter__pesquisa{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--azul-degrade);
+    border-radius: 24px;
+    width: 90%;
+    padding: 1em 1em;
+    margin: 0 2em;
+    background-color: transparent;
+    
+}
+.fotter__pesquisa::placeholder{
+    background: url(../img/Email.svg);
+    background-repeat: no-repeat;
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    padding-left: 2em;
+    
+
+}
+
+hr{
+    margin: 0;
+}
+.footer{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: var(--fonte);
+   /*  border-top: 2px #000000 solid; */
+    padding: 1.5em;
+}
+
+
+
+
+
+
+
+/* .fotter{
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo{
+font-size: 18px;
+font-weight: 700;
+
+}
+
+.banner__texto{
+    font-weight: 500;
+    margin: 1em 0;
+
+}
+
+.banner__pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+
+}
+
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background:url(../img/Pesquisa.svg);
+    background-repeat: no-repeat;
+    background-position: 0.7em;
+} */
