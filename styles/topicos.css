@@ -46,6 +46,13 @@
 
     .topicos__link{
         font-size: 24px;
+        
     }
+    .topicos__item{
+        margin: 2.5em 0.5em;
+    }
+    
+
+    
     
 }
